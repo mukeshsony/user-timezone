@@ -1,0 +1,37 @@
+{
+  "name": "user-timezone",
+  "version": "1.0.1",
+  "description": "Format unix timestamp into date time format according to user local timezone",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "lint": "tslint --project \"./tsconfig.json\"",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Mukesh Soni, Moment.js contributors",
+  "homepage": "https://github.com/mukeshsony/user-timezone.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mukeshsony/user-timezone.git"
+  },
+  "license": "ISC",
+  "keywords": [
+    "convert unix timestamp into user timezone",
+    "utc timezone to user timezone",
+    "user timezone",
+    "format date time"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.13.6",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.4"
+  },
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
+}
