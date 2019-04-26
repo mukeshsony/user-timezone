@@ -1,6 +1,6 @@
 # user-timezone
 
-> Format unix timestamp into date time format according to user local timezone
+> Convert UTC unix timestamp into user local datetime using user local timezone
 
 
 
